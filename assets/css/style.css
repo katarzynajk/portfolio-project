@@ -20,6 +20,10 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -49,6 +53,11 @@ input {
   outline: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 /* sidebar style*/
 .sidebar {
   position: fixed;
@@ -72,7 +81,7 @@ input {
 }
 
 .navbar-logo {
-  font-size: 1.125rem;
+  font-size: 1.2rem;
   color: #f5f3f4;
   font-weight: 100;
   line-height: 40px;
@@ -102,4 +111,25 @@ input {
   color: #f5f3f4;
   font-weight: 300;
   position: relative;
+  transition: 0.4s;
+  float: right;
+}
+
+.navbar-link.active-link:hover,
+.navbar-link:hover {
+  color: #ba181b;
+}
+
+.navbar-link.active-link::after,
+.navbar-link:hover::after {
+  position: absolute;
+  content: "";
+  width: 5px;
+  height: 5px;
+  background-color: #ba181b;
+  border-radius: 50%;
+  bottom: 2rem;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
