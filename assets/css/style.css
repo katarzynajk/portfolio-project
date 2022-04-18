@@ -1,2 +1,105 @@
 /* fonts */
 @import url("https://fonts.googleapis.com/css2?family=Bitter:wght@200;300;400;500&display=swap");
+
+/* variables colors */
+--rich-black-fogra-39: #0b090aff;
+--eerie-black: #161a1dff;
+--blood-red: #660708ff;
+--ruby-red: #a4161aff;
+--carnelian: #ba181bff;
+--imperial-red: #e5383bff;
+--black-shadows: #b1a7a6ff;
+--light-gray: #d3d3d3ff;
+--cultured: #f5f3f4ff;
+--white: #ffffffff;
+
+/* basic page style */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body,
+button,
+input {
+  font-family: "Bitter", serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+button {
+  cursor: pointer;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+}
+
+/* sidebar style*/
+.sidebar {
+  position: fixed;
+  width: 100px;
+  height: 100vh;
+  background-color: #161a1dff;
+  border-right: 1px solid #161a1dff;
+}
+
+.navbar-img {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 1.8rem;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #660708ff;
+  text-align: center;
+  margin: auto;
+}
+
+.navbar-logo {
+  font-size: 1.125rem;
+  color: #f5f3f4;
+  font-weight: 100;
+  line-height: 40px;
+}
+
+.navbar-menu {
+  position: fixed;
+  transform: rotate(-90deg) translateX(-100%);
+  transform-origin: left top;
+  width: 100vh;
+}
+
+.menu {
+  display: flex;
+}
+
+.navbar-list {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: -2px auto 0 auto;
+}
+
+.navbar-link {
+  height: 100%;
+  line-height: 100px;
+  padding: 0 1rem;
+  color: #f5f3f4;
+  font-weight: 300;
+  position: relative;
+}
