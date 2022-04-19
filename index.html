@@ -12,9 +12,12 @@
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bitter:wght@200;300;400;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- sidebar -->
@@ -27,16 +30,10 @@
           <div class="menu">
             <ul class="navbar-list">
               <li class="navbar-item">
-                <a href="#home" class="navbar-link active-link">Home</a>
-              </li>
-              <li class="navbar-item">
                 <a href="#about" class="navbar-link">About</a>
               </li>
               <li class="navbar-item">
-                <a href="#skills" class="navbar-link">Skills</a>
-              </li>
-              <li class="navbar-item">
-                <a href="#my-work" class="navbar-link">My Work</a>
+                <a href="#work" class="navbar-link">My Work</a>
               </li>
               <li class="navbar-item">
                 <a href="#contact" class="navbar-link">Contact</a>
@@ -54,39 +51,121 @@
     <main class="main-layout">
       <!-- home -->
       <section class="home" id="home">
-          <img src="./assets/images/pct-1.jpg" alt="" class="home-img">
+        <img src="./assets/images/pct-1.jpg" alt="" class="home-img" />
       </section>
       <!-- about -->
-      <section class="about" id="about"></section>
-      <!-- skills -->
-      <section class="skills" id="skills"></section>
+      <section class="about" id="about">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-container container grid">
+          <img src="./assets/images/5478563465.jpg" alt="" class="about-img" />
+
+          <div class="about-data">
+            <h3 class="about-heading">
+              Welcome, My name is Kasia, Based in Wolverhampton
+            </h3>
+            <p class="about-description">
+              I am a web developer with an art soul & design background. In
+              other words, I was doing digital art and returned a programmer.
+            </p>
+            <div class="about-info grid">
+              <div class="about-box">
+                <i class="uil uil-html5 about-icon"></i>
+                <h3 class="about-title">HTML</h3>
+              </div>
+
+              <div class="about-box">
+                <i class="uil uil-brackets-curly about-icon"></i>
+                <h3 class="about-title">CSS</h3>
+              </div>
+
+              <div class="about-box">
+                <i class="uil uil-java-script about-icon"></i>
+                <h3 class="about-title">JS</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- my work -->
-      <section class="my-work" id="my-work"></section>
+      <section class="my-work" id="work">
+        <h2 data-heading="My Portfolio" class="section-title">Recent Works</h2>
+        <div class="work-container container grid">
+          <div class="work-card">
+            <a href="https://katarzynajk.github.io/marketing-agency-refactor/">
+              <img
+                src="./assets/images/photo-1581472723648-909f4851d4ae.jpg"
+                alt=""
+                class="work-img"
+              />
+            </a>
+            <h3 class="work-title">Code refator for the Horiseon</h3>
+          </div>
+          <div class="work-card">
+            <a href="https://github.com/katarzynajk/landing-page">
+              <img
+                src="./assets/images/photo-1581472723648-909f4851d4ae.jpg"
+                alt=""
+                class="work-img"
+              />
+            </a>
+            <h3 class="work-title">Landing Page</h3>
+          </div>
+          <div class="work-card">
+            <img
+              src="./assets/images/photo-1581472723648-909f4851d4ae.jpg"
+              alt=""
+              class="work-img"
+            />
+            <h3 class="work-title">Web Design</h3>
+          </div>
+          <div class="work-card">
+            <img
+              src="./assets/images/photo-1581472723648-909f4851d4ae.jpg"
+              alt=""
+              class="work-img"
+            />
+            <h3 class="work-title">Web Design</h3>
+          </div>
+          <div class="work-card">
+            <img
+              src="./assets/images/photo-1581472723648-909f4851d4ae.jpg"
+              alt=""
+              class="work-img"
+            />
+            <h3 class="work-title">Web Design</h3>
+          </div>
+          <div class="work-card">
+            <img
+              src="./assets/images/photo-1581472723648-909f4851d4ae.jpg"
+              alt=""
+              class="work-img"
+            />
+            <h3 class="work-title">Web Design</h3>
+          </div>
+        </div>
+      </section>
       <!-- contact -->
       <section class="contact" id="contact">
         <h2 class="section-title">Contact Me</h2>
-        <div class="contact-container">
+        <div class="contact-container container grid">
           <div class="contact-content">
             <div class="contact-way">
-
               <div class="contact-card">
-                <i class="mail-contact"></i>
+                <i class="uil uil-envelope-edit contact-card-icon"></i>
                 <h3 class="contact-card-title">Email</h3>
-                <span class="contact-span">client@gmail.com</span>
                 <a href="" class="contact-btn"> Write me </a>
               </div>
 
               <div class="contact-card">
-                <i class="whatsapp-contact"></i>
+                <i class="uil uil-whatsapp contact-card-icon"></i>
                 <h3 class="contact-card-title">Whatsapp</h3>
-                <span class="contact-span">1111-222-333-4</span>
                 <a href="" class="contact-btn"> Write me </a>
               </div>
 
-              <div class="contact-card"></div>
-                <i class="mail-contact"></i>
+              <div class="contact-card">
+                <i class="uil uil-facebook-messenger contact-card-icon"></i>
                 <h3 class="contact-card-title">Messenger</h3>
-                <span class="contact-span">client.fb1111</span>
                 <a href="" class="contact-btn"> Write me </a>
               </div>
             </div>
@@ -94,23 +173,25 @@
 
           <div class="contact-content">
             <form action="" class="contact-form">
-                <div class="input-container">
-                    <input type="text" class="input">
-                    <span>Name</span>
-                </div>
-                <div class="input-container">
-                    <input type="email" class="input">
-                    <span>Email</span>
-                </div>
-                <div class="input-container">
-                    <input type="tel" class="input">
-                    <span>Phone</span>
-                </div>
-                <div class="input-container-text">
-                    <textarea name="" id="" class="input"></textarea>
-                    <span>Message</span>
-                </div>
-                <button type="submit" class="button"><i class="button-icon"></i>Send Message</button>
+              <div class="input-container">
+                <input type="text" class="input" />
+                <span>Name</span>
+              </div>
+              <div class="input-container">
+                <input type="email" class="input" />
+                <span>Email</span>
+              </div>
+              <div class="input-container">
+                <input type="tel" class="input" />
+                <span>Phone</span>
+              </div>
+              <div class="input-container text">
+                <textarea name="" id="" class="input"></textarea>
+                <span>Message</span>
+              </div>
+              <button type="submit" class="button">
+                <i class="button-icon"></i>Send Message
+              </button>
             </form>
           </div>
         </div>
