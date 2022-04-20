@@ -58,7 +58,76 @@ img {
   height: 100%;
 }
 
+/* home */
+
+.home {
+  background: url("../images/pct-2.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 50vh;
+}
+
+.home-container {
+  position: relative;
+  height: 100%;
+  align-items: center;
+}
+
+.home-title {
+  font-size: 3rem;
+}
+
+.my-info {
+  display: flex;
+  column-gap: 1.8rem;
+  position: absolute;
+  left: 0;
+  bottom: 1.8rem;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+}
+
+.info-title {
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.info-icon {
+  font-size: 2rem;
+  color: #ba181b;
+  margin-right: 0.75rem;
+}
+
 /* sidebar style*/
+
+.nav-toggle {
+  height: 32px;
+  width: 36px;
+  cursor: pointer;
+  position: fixed;
+  right: 1.5rem;
+  top: 2rem;
+  font-size: 1.2rem;
+  border-radius: 0.25rem;
+  background-color: #ba181b;
+  color: #f5f3f4;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+}
+
+.nav__close {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 1rem;
+  right: 1.25rem;
+  cursor: pointer;
+  display: none;
+}
 
 .sidebar {
   position: fixed;
@@ -76,15 +145,15 @@ img {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-color: #660708ff;
+  background-color: #ba181b;
   text-align: center;
   margin: auto;
 }
 
 .navbar-logo {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   color: #f5f3f4;
-  font-weight: 100;
+  font-weight: 500;
   line-height: 40px;
 }
 

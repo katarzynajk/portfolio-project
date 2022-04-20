@@ -21,6 +21,9 @@
   </head>
   <body>
     <!-- sidebar -->
+    <div class="nav-toggle" id="navbar-toggle">
+      <i class="uil uil-bars"></i>
+    </div>
     <aside class="sidebar" id="sidebar">
       <nav class="nav-bar">
         <div class="navbar-img">
@@ -29,6 +32,9 @@
         <div class="navbar-menu">
           <div class="menu">
             <ul class="navbar-list">
+              <li class="navbar-item">
+                <a href="#home" class="navbar-link active-link">Home</a>
+              </li>
               <li class="navbar-item">
                 <a href="#about" class="navbar-link">About</a>
               </li>
@@ -45,13 +51,40 @@
         <div class="btn-share">
           <i class="uil uil-share-alt"></i>
         </div>
+        <div class="nav-close" id="navbar-close">
+          <i class="uil uil-times"></i>
+        </div>
       </nav>
     </aside>
     <!-- main layout -->
     <main class="main-layout">
       <!-- home -->
       <section class="home" id="home">
-        <img src="./assets/images/pct-1.jpg" alt="" class="home-img" />
+        <div class="home-container container grid">
+          <div class="home-data">
+            <h1 class="home-title">Welcome</h1>
+          </div>
+          <div class="my-info">
+            <div class="info-item">
+              <i class="uil uil-github info-icon"></i>
+              <div>
+                <a href="https://github.com/katarzynajk" target="_blank"
+                  ><h3 class="info-title">Github</h3>
+                </a>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="uil uil-linkedin info-icon"></i>
+              <div>
+                <a
+                  href="https://www.linkedin.com/in/katarzyna-jaromin-kaliciak-b281b5234/"
+                  target="_blank"
+                  ><h3 class="info-title">Linkedin</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
       <!-- about -->
       <section class="about" id="about">
@@ -62,7 +95,7 @@
 
           <div class="about-data">
             <h3 class="about-heading">
-              Welcome, My name is Kasia, Based in Wolverhampton
+              Hi, My name is Kasia, Based in Wolverhampton
             </h3>
             <p class="about-description">
               I am a web developer with an art soul & design background. In
