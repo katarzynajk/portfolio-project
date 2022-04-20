@@ -123,28 +123,45 @@
       <!-- my work -->
       <section class="my-work" id="work">
         <h2 data-heading="My Portfolio" class="section-title">Recent Works</h2>
+        <!-- js in the future (sorting) -->
+        <div class="work-filters">
+          <p class="work-item active-work" data-filter="all">All</p>
+          <p class="work-item" data-filter=".web">Project</p>
+          <p class="work-item" data-filter=".app">Project</p>
+          <p class="work-item" data-filter=".design">Project</p>
+        </div>
+
         <div class="work-container container grid">
-          <div class="work-card">
-            <a href="https://katarzynajk.github.io/marketing-agency-refactor/">
+          <div class="work-card mix web">
+            <img
+              src="./assets/images/photo-1581472723648-909f4851d4ae.jpg"
+              alt=""
+              class="work-img"
+            />
+            <a 
+              class="work-btn"
+              href="https://katarzynajk.github.io/marketing-agency-refactor/"
+              target="_blank"
+            >
+              <h3 class="work-title">Code refator for the Horiseon</h3>
+            </a>
+          </div>
+          <div class="work-card mix web">
               <img
                 src="./assets/images/photo-1581472723648-909f4851d4ae.jpg"
                 alt=""
                 class="work-img"
               />
+              <a 
+                class="work-btn"
+                href="https://github.com/katarzynajk/landing-page" 
+                target="_blank"
+              >
+                <h3 class="work-title">Landing Page</h3>
+              </a>
             </a>
-            <h3 class="work-title">Code refator for the Horiseon</h3>
           </div>
-          <div class="work-card">
-            <a href="https://github.com/katarzynajk/landing-page">
-              <img
-                src="./assets/images/photo-1581472723648-909f4851d4ae.jpg"
-                alt=""
-                class="work-img"
-              />
-            </a>
-            <h3 class="work-title">Landing Page</h3>
-          </div>
-          <div class="work-card">
+          <div class="work-card mix app">
             <img
               src="./assets/images/photo-1581472723648-909f4851d4ae.jpg"
               alt=""
@@ -152,7 +169,7 @@
             />
             <h3 class="work-title">Web Design</h3>
           </div>
-          <div class="work-card">
+          <div class="work-card mix app">
             <img
               src="./assets/images/photo-1581472723648-909f4851d4ae.jpg"
               alt=""
@@ -160,7 +177,7 @@
             />
             <h3 class="work-title">Web Design</h3>
           </div>
-          <div class="work-card">
+          <div class="work-card mix design">
             <img
               src="./assets/images/photo-1581472723648-909f4851d4ae.jpg"
               alt=""
@@ -168,7 +185,7 @@
             />
             <h3 class="work-title">Web Design</h3>
           </div>
-          <div class="work-card">
+          <div class="work-card mix design">
             <img
               src="./assets/images/photo-1581472723648-909f4851d4ae.jpg"
               alt=""

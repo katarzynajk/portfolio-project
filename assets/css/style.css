@@ -17,11 +17,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #0b090aff;
 }
 
 body {
   margin: 0;
+  background-color: #040101;
 }
 
 html {
@@ -58,6 +58,10 @@ img {
   height: 100%;
 }
 
+p {
+  font-size: 1.2rem;
+  color: #f5f3f4;
+}
 /* home */
 
 .home {
@@ -74,7 +78,7 @@ img {
 }
 
 .home-title {
-  font-size: 3rem;
+  font-size: 5rem;
 }
 
 .my-info {
@@ -120,7 +124,7 @@ img {
   z-index: 10;
 }
 
-.nav__close {
+.nav-close {
   font-size: 1.5rem;
   position: absolute;
   top: 1rem;
@@ -231,16 +235,16 @@ img {
 
 /* about */
 
-.section-title {
-  text-align: center;
-  font-size: 30px;
-  margin-bottom: 4;
-}
-
 .about-container {
   grid-template-columns: repeat(2, 1fr);
   column-gap: 4rem;
   align-items: center;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 4;
 }
 
 .about-img {
@@ -250,7 +254,7 @@ img {
 }
 
 .about-heading {
-  font-size: 30px;
+  font-size: 2rem;
   margin-bottom: 1;
 }
 
@@ -269,7 +273,7 @@ img {
 .about-box {
   text-align: center;
   border-radius: 0.25rem;
-  padding: 1rem 1.25rem;
+  padding: 1rem 1.5rem;
   background-color: #161a1dff;
 }
 
@@ -280,7 +284,7 @@ img {
 }
 
 .about-title {
-  font-size: 25px;
+  font-size: 1rem;
 }
 
 /*contact*/
@@ -354,24 +358,59 @@ text.input {
 
 .work-container {
   grid-template-columns: repeat(3, 330px);
-  gap: 3.5rem;
+  gap: 1.8rem;
   justify-content: center;
   padding-top: 1rem;
 }
 
 .work-card {
-  background-color: #ba181b;
+  background-color: #161a1dff;
   padding: 1.25rem;
   border-radius: 0.5rem;
 }
 
 .work-title {
-  font-size: 20px;
-  font-weight: 300;
-  margin-bottom: 0.2rem;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
 }
 
 .work-img {
   border-radius: 0.5rem;
   margin-bottom: 1rem;
+  height: 220px;
+}
+
+.work-filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.work-item {
+  cursor: pointer;
+  color: #f5f3f4;
+  padding: 0.25rem 0.75rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+}
+
+.work-btn {
+  color: var(--skin-color);
+  font-size: var(--small-font-size);
+  display: flex;
+  align-items: center;
+  column-gap: 0.25rem;
+  cursor: pointer;
+}
+
+.work-btn:hover {
+  transform: translateX(0.25rem);
+}
+
+.active-work {
+  background-color: #ba181b;
+  color: #f5f3f4;
 }
