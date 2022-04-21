@@ -21,14 +21,15 @@
   </head>
   <body>
     <!-- sidebar -->
-    <div class="nav-toggle" id="navbar-toggle">
-      <i class="uil uil-bars"></i>
+    <!-- <div class="nav-toggle" id="navbar-toggle">
+      <i class="uil uil-bars"></i> -->
     </div>
     <aside class="sidebar" id="sidebar">
       <nav class="nav-bar">
         <div class="navbar-img">
           <a href="./index.html" class="navbar-logo">K</a>
         </div>
+        
         <div class="navbar-menu">
           <div class="menu">
             <ul class="navbar-list">
@@ -51,8 +52,8 @@
         <div class="btn-share">
           <i class="uil uil-share-alt"></i>
         </div>
-        <div class="nav-close" id="navbar-close">
-          <i class="uil uil-times"></i>
+        <!-- <div class="nav-close" id="navbar-close">
+          <i class="uil uil-times"></i> -->
         </div>
       </nav>
     </aside>
@@ -130,8 +131,7 @@
           <p class="work-item" data-filter=".app">Project</p>
           <p class="work-item" data-filter=".design">Project</p>
         </div>
-
-        <div class="work-container container grid">
+        <div class="work-container1 container grid">
           <div class="work-card mix web">
             <img
               src="./assets/images/photo-1581472723648-909f4851d4ae.jpg"
@@ -146,6 +146,9 @@
               <h3 class="work-title">Code refator for the Horiseon</h3>
             </a>
           </div>
+        </div>
+
+        <div class="work-container container grid">
           <div class="work-card mix web">
               <img
                 src="./assets/images/photo-1581472723648-909f4851d4ae.jpg"
@@ -193,30 +196,47 @@
             />
             <h3 class="work-title">Web Design</h3>
           </div>
+          <div class="work-card mix design">
+            <img
+              src="./assets/images/photo-1581472723648-909f4851d4ae.jpg"
+              alt=""
+              class="work-img"
+            />
+            <h3 class="work-title">Web Design</h3>
+          </div>
         </div>
       </section>
       <!-- contact -->
       <section class="contact" id="contact">
         <h2 class="section-title">Contact Me</h2>
+
         <div class="contact-container container grid">
           <div class="contact-content">
             <div class="contact-way">
               <div class="contact-card">
                 <i class="uil uil-envelope-edit contact-card-icon"></i>
                 <h3 class="contact-card-title">Email</h3>
-                <a href="" class="contact-btn"> Write me </a>
+                <a 
+                href="mailto:examplemail@gmail.com" 
+                class="contact-btn"> Write me </a>
               </div>
 
               <div class="contact-card">
                 <i class="uil uil-whatsapp contact-card-icon"></i>
                 <h3 class="contact-card-title">Whatsapp</h3>
-                <a href="" class="contact-btn"> Write me </a>
+                <a 
+                href="https://www.whatsapp.com/" 
+                target="_blank" 
+                class="contact-btn"> Write me </a>
               </div>
 
               <div class="contact-card">
                 <i class="uil uil-facebook-messenger contact-card-icon"></i>
                 <h3 class="contact-card-title">Messenger</h3>
-                <a href="" class="contact-btn"> Write me </a>
+                <a 
+                href="https://www.messenger.com/" 
+                target="_blank" 
+                class="contact-btn"> Write me </a>
               </div>
             </div>
           </div>
@@ -235,10 +255,6 @@
                 <input type="tel" class="input" />
                 <span>Phone</span>
               </div>
-              <div class="input-container text">
-                <textarea name="" id="" class="input"></textarea>
-                <span>Message</span>
-              </div>
               <button type="submit" class="button">
                 <i class="button-icon"></i>Send Message
               </button>
@@ -248,6 +264,16 @@
       </section>
     </main>
     <!-- footer -->
+    <footer class="footer">
+      <div class="footer-bg">
+        <div class="footer-container container grid">
+          <div>
+            <h1 class="footer-title">Kasia</h1>
+            <span class="footer-subtitle">Web developer</span>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- scroll up button -->
     <!-- some js -->
     <script src="./assets/js/index.js"></script>
