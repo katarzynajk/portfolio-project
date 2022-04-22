@@ -274,9 +274,28 @@ p {
 
 .work-container1 {
   gap: 1.8rem;
-  justify-content: center;
+  justify-items: center;
   padding-top: 1rem;
-  margin: 0;
+}
+
+.work-card1 {
+  background-color: #161a1dff;
+  padding: 1.25rem;
+  border-radius: 0.5rem;
+  width: fit-content;
+}
+
+.work-img1 {
+  border-radius: 0.5rem;
+  margin-bottom: 1rem;
+  height: auto;
+}
+
+.work-title1 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 1.4rem;
+  margin-bottom: 1.4rem;
 }
 
 .work-container {
