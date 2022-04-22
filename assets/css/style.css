@@ -501,14 +501,14 @@ p {
     grid-template-columns: 300px;
   }
 
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+  }
+
   .contact-container {
     display: flex;
     flex-direction: column;
     grid-template-columns: 300px;
-  }
-
-  .footer-container {
-    display: flex;
-    flex-direction: column;
   }
 }
