@@ -10,6 +10,12 @@ Below I attached a link to the completed page and screenshots showing both versi
 - mobile version
 - desktop version
 
+## Deployed URL and GitHUb repository
+
+Link to Deployed page: https://katarzynajk.github.io/portfolio-project/
+
+Link to Github repo: https://github.com/katarzynajk/portfolio-project
+
 ## Desktop Version
 
 ![desktop version](./assets/images/main-page.jpg)
