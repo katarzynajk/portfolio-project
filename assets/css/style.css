@@ -96,6 +96,10 @@ p {
   bottom: 1.8rem;
 }
 
+.info-title:hover {
+  color: #ba181b;
+}
+
 .info-item {
   display: flex;
   align-items: center;
@@ -476,6 +480,15 @@ p {
     margin: 0;
   }
 
+  .my-info {
+    flex-direction: column;
+    padding-left: 40px;
+  }
+
+  .show-sidebar {
+    transform: translateX(0);
+  }
+
   .container {
     margin-left: 1rem;
     margin-right: 1rem;
@@ -492,6 +505,11 @@ p {
     grid-template-columns: repeat(3, 1fr);
     grid-template-columns: 1fr;
     row-gap: 2.5rem;
+  }
+
+  .about-img {
+    height: 300px;
+    width: 220px;
   }
 
   .about-box {
