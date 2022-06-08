@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio Website</title>
+    <!-- unicons -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitter:wght@200;300;400;500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- sidebar -->
+    <!-- toggle menu pop up to continue -->
+    <div class="nav-toggle" id="navbar-toggle">
+      <i class="uil uil-bars"></i>
+    </div>
+    <aside class="sidebar" id="sidebar">
+      <nav class="nav-bar">
+        <div class="navbar-img">
+          <a href="./index.html" class="navbar-logo">K</a>
+        </div>
+        
+        <div class="navbar-menu">
+          <div class="menu">
+            <ul class="navbar-list">
+              <li class="navbar-item">
+                <a href="#home" class="navbar-link active-link">Home</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#about" class="navbar-link">About</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#work" class="navbar-link">My Work</a>
+              </li>
+              <li class="navbar-item">
+                <a href="#contact" class="navbar-link">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <!-- share -->
+        <div class="btn-share">
+          <i class="uil uil-share-alt"></i>
+        </div>
+        <div class="nav-close" id="navbar-close">
+          <i class="uil uil-times"></i>
+        </div>
+      </nav>
+    </aside>
+    <!-- main layout -->
+    <main class="main-layout">
+      <!-- home -->
+      <section class="home" id="home">
+        <div class="home-container container grid">
+          <div class="home-data">
+            <h1 class="home-title">Welcome</h1>
+          </div>
+          <div class="my-info">
+            <div class="info-item">
+              <i class="uil uil-github info-icon"></i>
+              <div>
+                <a href="https://github.com/katarzynajk" 
+                target="_blank"
+                  ><h3 class="info-title">Github</h3>
+                </a>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="uil uil-linkedin info-icon"></i>
+              <div>
+                <a
+                  href="https://www.linkedin.com/in/katarzyna-jaromin-kaliciak-b281b5234/"
+                  target="_blank"
+                  ><h3 class="info-title">Linkedin</h3>
+                </a>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="uil uil-file-alt info-icon"></i>
+              <div>
+                <a
+                  href="https://drive.google.com/file/d/1Bn46bV5PTl_ip6wv2ORsd8fm2jxrmeYy/view?usp=sharing"
+                  target="_blank"
+                  ><h3 class="info-title">Curriculum Vitae</h3>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- about -->
+      <section class="about" id="about">
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-container container grid">
+          <img src="./assets/images/5478563465.jpg" alt="" class="about-img" />
+
+          <div class="about-data">
+            <h3 class="about-heading">
+              Hi, My name is Kasia, Based in Wolverhampton
+            </h3>
+            <p class="about-description">
+              I am a web developer with an art soul & design background. In
+              other words, I was doing digital art and returned a programmer.
+            </p>
+            <div class="about-info grid">
+              <div class="about-box">
+                <i class="uil uil-html5 about-icon"></i>
+                <h3 class="about-title">HTML</h3>
+              </div>
+
+              <div class="about-box">
+                <i class="uil uil-brackets-curly about-icon"></i>
+                <h3 class="about-title">CSS</h3>
+              </div>
+
+              <div class="about-box">
+                <i class="uil uil-java-script about-icon"></i>
+                <h3 class="about-title">JS</h3>
+              </div>
+            </div>
+            <div class="about-info grid">
+              <div class="about-box">
+                <i class="uil uil-keyboard about-icon"></i>
+                <h3 class="about-title">API</h3>
+                </div>
+              <div class="about-box">
+                <i class="uil uil-java-script about-icon"></i>
+                <h3 class="about-title">Node.JS</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- my work -->
+      <section class="my-work" id="work">
+        <h2 data-heading="My Portfolio" class="section-title">Recent Works</h2>
+        <!-- js in the future (sorting) -->
+        <div class="work-filters">
+          <p class="work-item active-work" data-filter="all">All</p>
+          <p class="work-item" data-filter=".web">Project</p>
+          <p class="work-item" data-filter=".app">Project</p>
+          <p class="work-item" data-filter=".design">Project</p>
+        </div>
+        <div class="work-container1 container grid">
+          <div class="work-card1 mix web">
+            <img
+              src="./assets/images/movie-night.avif"
+              alt=""
+              class="work-img1"
+            />
+            <a 
+              class="work-btn"
+              href="https://talexandru1987.github.io/group-4-project-1/"
+              target="_blank"
+            >
+              <h3 class="work-title1">Movie Night App</h3>
+            </a>
+          </div>
+        </div>
+        <h2 data-heading="My Portfolio" class="section-title">Other Works</h2>
+
+        <div class="work-container container grid">
+          <div class="work-card mix web">
+              <img
+                src="./assets/images/weather-dashboard.avif"
+                alt=""
+                class="work-img"
+              />
+              <a 
+                class="work-btn"
+                href="https://katarzynajk.github.io/weather-dashboard/" 
+                target="_blank"
+              >
+                <h3 class="work-title">Weather Dashboard</h3>
+              </a>
+            </a>
+          </div>
+          <div class="work-card mix web">
+            <img
+              src="./assets/images/password-generator.avif"
+              alt=""
+              class="work-img"
+            />
+            <a 
+              class="work-btn"
+              href="https://katarzynajk.github.io/password-generator/" 
+              target="_blank"
+            >
+              <h3 class="work-title">Password Generator</h3>
+            </a>
+          </a>
+        </div>
+        <div class="work-card mix web">
+          <img
+            src="./assets/images/marketing-agency.avif"
+            alt=""
+            class="work-img"
+          />
+          <a 
+            class="work-btn"
+            href="https://katarzynajk.github.io/marketing-agency-refactor/" 
+            target="_blank"
+          >
+            <h3 class="work-title">Marketing Agency Refactor</h3>
+          </a>
+        </a>
+      </div>
+          <div class="work-card mix design">
+            <img
+              src="./assets/images/photo-1581472723648-909f4851d4ae.jpg"
+              alt=""
+              class="work-img"
+            />
+            <h3 class="work-title">Web Design</h3>
+          </div>
+          <div class="work-card mix design">
+            <img
+              src="./assets/images/photo-1581472723648-909f4851d4ae.jpg"
+              alt=""
+              class="work-img"
+            />
+            <h3 class="work-title">Web Design</h3>
+          </div>
+          <div class="work-card mix design">
+            <img
+              src="./assets/images/photo-1581472723648-909f4851d4ae.jpg"
+              alt=""
+              class="work-img"
+            />
+            <h3 class="work-title">Web Design</h3>
+          </div>
+        </div>
+      </section>
+      <!-- contact -->
+      <section class="contact" id="contact">
+        <h2 class="section-title">Contact Me</h2>
+
+        <div class="contact-container container grid">
+          <div class="contact-content">
+            <div class="contact-way">
+              <div class="contact-card">
+                <i class="uil uil-envelope-edit contact-card-icon"></i>
+                <h3 class="contact-card-title">Email</h3>
+                <a 
+                href="mailto:examplemail@gmail.com" 
+                class="contact-btn"> Write me </a>
+              </div>
+
+              <div class="contact-card">
+                <i class="uil uil-whatsapp contact-card-icon"></i>
+                <h3 class="contact-card-title">Whatsapp</h3>
+                <a 
+                href="https://www.whatsapp.com/" 
+                target="_blank" 
+                class="contact-btn"> Write me </a>
+              </div>
+
+              <div class="contact-card">
+                <i class="uil uil-facebook-messenger contact-card-icon"></i>
+                <h3 class="contact-card-title">Messenger</h3>
+                <a 
+                href="https://www.messenger.com/" 
+                target="_blank" 
+                class="contact-btn"> Write me </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-content">
+            <form action="" class="contact-form">
+              <div class="input-container">
+                <input type="text" class="input" />
+                <span>Name</span>
+              </div>
+              <div class="input-container">
+                <input type="email" class="input" />
+                <span>Email</span>
+              </div>
+              <div class="input-container">
+                <input type="tel" class="input" />
+                <span>Phone</span>
+              </div>
+              <button type="submit" class="button">
+                <i class="button-icon"></i>Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <div class="footer-bg">
+        <div class="footer-container container grid">
+          <div>
+            <h1 class="footer-title">Kasia</h1>
+            <span class="footer-subtitle">Web developer</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- scroll up button js -->
+    <!-- some js to continue -->
+    <script src="./assets/js/index.js"></script>
+  </body>
+</html>
