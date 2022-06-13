@@ -18,8 +18,4 @@ Link to Github repo: https://github.com/katarzynajk/portfolio-project
 
 ## Desktop Version
 
-![desktop version](./assets/images/main-page.jpg)
-
-## Mobile Version
-
-![desktop version](./assets/images/mobile-version.jpg)
+![desktop version](./assets/images/page-screen.png)
